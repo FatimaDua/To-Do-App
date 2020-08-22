@@ -1,0 +1,57 @@
+body{
+    background-color: darkkhaki;
+}
+.to-do-app{
+    text-align: center;
+    margin: 150px;
+    padding: 10px;
+    border:solid 9px saddlebrown;
+    
+    border-radius: 25px;
+}
+.del-btn{
+    text-align: center ;
+    background-color:red;
+    /* radius: 5px;, */
+    margin : 10px ;
+    border : 4px solid red;
+    border-radius: 5px;
+    color: black ;
+    font-weight: bold ;
+}
+.editBtn{
+    background-color: rgb(241, 151, 32) ;
+    /* radius: 5px;, */
+    margin : 10px ;
+    border : 4px solid rgb(241, 151, 32);
+    border-radius: 5px;
+    color: black ;
+    font-weight: bold ;
+}
+ul{
+    display: inline-block;
+    /* apply no bullet style */
+}
+.input-field{
+    border: 4 solid gold;
+    color: firebrick;
+    background-color: gold;
+}
+.add-btn{
+    background-color: rgb(241, 151, 32) ;
+    /* radius: 5px;, */
+    margin : 10px ;
+    border : 4px solid rgb(241, 151, 32);
+    border-radius: 5px;
+    color: black ;
+    font-weight: bold ;
+}
+.reset-btn{
+    background-color: red ;
+    /* radius: 5px;, */
+    margin : 10px ;
+    border : 4px solid red;
+    border-radius: 5px;
+    color: black ;
+    font-weight: bold ;
+}

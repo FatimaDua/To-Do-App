@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="to-do-app">
+        
+        <div class="add-items">
+           
+            
+            <!-- we'll add items through input text -->
+            <input type="text" placeholder="Add a to-do" id="todo-item" class="input-field">
+             
+            <!-- a button to add it  -->
+            <!-- a function addItem() to actually add it in our list through javascript-->
+            <button onclick="addToDo()" class="add-btn">+</button>
+            <!-- a button to delete all items -->
+            <button onclick="reset()" class =" reset-btn">Reset</button>
+       
+        </div>
+        
+        <div >
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
